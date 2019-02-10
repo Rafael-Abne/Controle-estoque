@@ -54,7 +54,7 @@ CREATE TABLE `categoria` (
 
 --
 -- Extraindo dados da tabela `categoria`
---
+
 
 INSERT INTO `categoria` (`id_categoria`, `nome_categoria`) VALUES
 (1, ''),
