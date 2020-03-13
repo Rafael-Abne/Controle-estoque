@@ -38,9 +38,6 @@ CREATE TABLE `admin` (
 -- Extraindo dados da tabela `admin`
 --
 
-INSERT INTO `admin` (`id_usuario`, `usuario`, `senha`) VALUES
-(1, 'teste', 'teste');
-
 -- --------------------------------------------------------
 
 --
@@ -54,12 +51,6 @@ CREATE TABLE `categoria` (
 
 --
 -- Extraindo dados da tabela `categoria`
-
-
-INSERT INTO `categoria` (`id_categoria`, `nome_categoria`) VALUES
-(1, ''),
-(2, 'pereferi'),
-(3, 'perifÃ©ricos bÃ¡sico');
 
 -- --------------------------------------------------------
 
@@ -81,10 +72,6 @@ CREATE TABLE `entrada` (
 -- Extraindo dados da tabela `entrada`
 --
 
-INSERT INTO `entrada` (`id`, `produto`, `categoria`, `descricao`, `quantidade`, `data_entrada`, `hora_entrada`) VALUES
-(2, 'placa de rede', 'PLACAS', 'saindo   2 placas                                     ', 2, '2019-01-21', '18:33:37'),
-(3, 'placa de rede', 'PLACAS', '                      sds', 1, '2019-01-19', '13:34:37'),
-(4, 'rj45 kit 2', 'perifÃ©ricos bÃ¡sico', '                                                                  ', 22, '2019-01-16', '15:23:35');
 
 -- --------------------------------------------------------
 
@@ -105,10 +92,6 @@ CREATE TABLE `estoque` (
 -- Extraindo dados da tabela `estoque`
 --
 
-INSERT INTO `estoque` (`id_produto`, `produto`, `categoria`, `descricao`, `consumo`, `quantidade`) VALUES
-(23, 'placa de rede', 'PLACAS', '                      ', 'nao', 0),
-(24, 'rj45 kit 2   ', 'perifÃ©ricos bÃ¡sico', 'kit rj45 45 unidades                                                                                ', 'sim', 22);
-
 -- --------------------------------------------------------
 
 --
@@ -126,10 +109,6 @@ CREATE TABLE `produto` (
 --
 -- Extraindo dados da tabela `produto`
 --
-
-INSERT INTO `produto` (`id_produto`, `nome`, `categoria`, `descricao`, `consumo`) VALUES
-(34, 'placa de rede  ', 'perifÃ©ricos bÃ¡sico', 'dadddddddddddddddddddddddddddddddddd                                                                ', 'sim'),
-(35, 'rj45 kit 2    ', 'pereferi', 'kit rj45 45 unidades                                                                                                              ', 'sim');
 
 -- --------------------------------------------------------
 
